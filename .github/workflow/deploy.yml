@@ -1,0 +1,18 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Dokku deploy
+      uses: vitalyliber/dokku-github-action@v4.0
+      env:
+        PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        HOST: '68.183.106.71'
+        PROJECT: 'rails_deploy_test'

@@ -1,0 +1,162 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/models/car.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/controllers/cars_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/helpers/cars_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/tobiasandre/Documents/TobiasAndreTeam/RailsDeployTest/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1594159717
+  }
+}

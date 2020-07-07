@@ -9,7 +9,6 @@ require 'rspec/rails'
 require 'vcr'
 require 'simplecov'
 SimpleCov.start 'rails'
-SimpleCov.minimum_coverage 90
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'

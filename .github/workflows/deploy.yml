@@ -1,5 +1,5 @@
 env:
-  RUBY_VERSION: 2.6.6
+  RUBY_VERSION: 2.6.5
   POSTGRES_USER: postgres
   POSTGRES_PASSWORD: postgres
   POSTGRES_DB: postgres
@@ -63,6 +63,7 @@ jobs:
           path: coverage
 
   deploy:
+    name: Deploy
     runs-on: ubuntu-18.04
     needs: rspec-test
     steps:

@@ -1,18 +1,19 @@
-name: CD
+name: Deploy
 
-on:
+on: 
   push:
     branches:
       - staging
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-    - name: Dokku deploy
-      uses: vitalyliber/dokku-github-action@v4.0
-      env:
-        PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        HOST: '68.183.106.71'
-        PROJECT: 'rails_deploy_test'
+      - uses: actions/checkout@v1
+      - name: Deploy the application
+        uses: landmaj/github-action-dokku@master
+        with:
+          PRIVATE_KEY: ${{ secrets.DOKKU_PRIVATE_KEY }}
+          PUBLIC_KEY: ${{ secrets.DOKKU_PUBLIC_KEY }}
+          HOST: ${{ secrets.DOKKU_HOST }}
+          PROJECT: 'rails_deploy_test'
